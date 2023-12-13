@@ -1,5 +1,43 @@
 # Making Games: Building Blocks
 
+Games often take two times longer than we expect, project management will help production stay within a timeline. 
+
+https://docs.godotengine.org/en/stable/index.html
+
+**How do we plan and execute our projects?**
+
+- Order of steps and keeping track.
+- Planning diagram:
+    - Pre-production - Ideation (premise) → Definition (core loop, scope/scale), Enumerate Systems (list of core mechanics and supporting mechanics), Understand Precedence (hierarchy).
+    - List the mechanics in a hierarchy, which one needs to be done before you’re able to do next?
+    - Intuition - get a feel for what should be made first.
+    - Roadmap - gantt chart, colour code for each process (Mechanics, Visuals, Release), mid-production tasks. Check off as you progress.
+    - Design brief - specify how movement should feel, details that should be included for the programmer. Ideas from each person will be more cohesive if they have reference.
+    - Have a list of milestones.
+    - Design is likely going to be flawed, need to account for playtesting and work on iteration.
+
+**Planning Benefits:** 
+
+- Fights scope creep, projects won’t bloat.
+- Allows you to measure progress.
+- Helps you recover from distractions and breaks.
+- Mitigates “feature loss” by simply forgetting that there was something important to add.
+
+Planning Example with Monkey Ball Game: 
+
+- Define the game concept, premise.
+- Core loop – set up like storyboard, ex. Spawn at start → player sees the goal → tilt the map to start moving the monkey → make their way to the goal → pick up collectibles → avoid obstacles → interactable game objects
+- Enumerate our systems:
+    - Monkey character - movement mechanics, visuals
+    - Level platform manipulation
+    - Level construction: level-of-difficulty (bumpers, railing removal), speed lines
+    - Level start and end loop (spawn, failure, respawn, reached goal).
+- Established precedence: sort out order of features from system and milestones.
+- Plan a schedule with those milestones:
+
+![image](IGA_Level_1_-_Project_Planning.png)
+![image](image.png)
+
 "Building Blocks of Games: Design and Development Essentials" Certainly! If your GitHub repository is more of a personal space for my works in progress on the Modular Game Design (MGD) book and isn't intended for collaboration or usage by others, I can simplify the README accordingly. Here's a revised template:
 
 # Project Title
