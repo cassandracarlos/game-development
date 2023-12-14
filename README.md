@@ -1,6 +1,30 @@
 # Making Games: Building Blocks
 
-Games often take two times longer than we expect, project management will help production stay within a timeline. 
+Games often take two times longer than we expect, project management will help production stay within a timeline.
+
+```
+.
+├── alpha
+│   ├── beta
+│   │   ├── gamma.cs
+│   │   └── delta.cs
+│   └── epsilon
+│       ├── zeta.php
+│       ├── theta.php
+│       └── iota.php
+├── magma-aqua
+│   └── rocket
+│       └── team-galactic.cs
+│       └── spear-pillar.cs
+│   └── rainbow-rocket
+│       └── silver.js
+│   └── sword-shield
+│       └── runeterra.JSON
+│       └── outworld.JSON
+└── README.md
+```
+
+---
 
 https://docs.godotengine.org/en/stable/index.html
 
