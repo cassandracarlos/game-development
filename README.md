@@ -17,7 +17,7 @@ Personal notes about game development.
 │     │── example-2
 │     │── example-3
 │     └── ...
-│── style-guide
+│── style
 │     │── colors
 │     │── font
 │     │── layout
