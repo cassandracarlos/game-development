@@ -1,41 +1,31 @@
-# Making Games - Building Blocks
+# Building Blocks of Games
 
-We can use this repository to store any recurring assets, documents and notes on the stages of game development.
-
-[Skip to Contribution Guide](#how-to-use)
+Personal notes about game development.
 
 ## Index
 ```
 .
-│── assets
-│     │── 2d
-│     └── 3d
-│── career-notes
-│     │── careers-in-games
-│     │── getting-feedback
-│     └── networking-events
-│── coding-bible
-│     │── gdscript
-│     └── pseudocode
-│── development-notes
-│     │── asset creation
+│── concepts
+│     │── asset-creation
 │     │── conceptualization
-│     │── debugging
+│     │── deployment
 │     │── design
-│     │── documentation
-│     │── game-jams
-│     │── package-and-launch
-│     │── programming
-│     └── prototyping
-│── documentation
+│     │── production
+│     └── testing
+│── process
+│     │── example-1
+│     │── example-2
+│     │── example-3
 │     └── ...
-│── resources
-│     │── images
-│     │── links
-│     └── miscellaneous
+│── style-guide
+│     │── colors
+│     │── font
+│     │── layout
+│     └── writing
+│── visuals
+│     │── code
+│     │── charts
+│     │── diagrams
+│     └── illustrations
 └── README.md
 ```
-
-## How to Use
-
-...
