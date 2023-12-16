@@ -1,23 +1,41 @@
-# Making Games: Building Blocks
+# Making Games - Building Blocks
 
+We can use this repository to store any recurring assets, documents and notes on the stages of game development.
+
+[Skip to Contribution Guide](#how-to-use)
+
+## Index
 ```
 .
-├── alpha
-│   ├── beta
-│   │   ├── gamma.cs
-│   │   └── delta.cs
-│   └── epsilon
-│       ├── zeta.php
-│       ├── theta.php
-│       └── iota.php
-├── magma-aqua
-│   └── rocket
-│       └── team-galactic.cs
-│       └── spear-pillar.cs
-│   └── rainbow-rocket
-│       └── silver.js
-│   └── sword-shield
-│       └── runeterra.JSON
-│       └── outworld.JSON
+│── assets
+│     │── 2d
+│     └── 3d
+│── career-notes
+│     │── careers-in-games
+│     │── getting-feedback
+│     └── networking-events
+│── coding-bible
+│     │── gdscript
+│     └── pseudocode
+│── development-notes
+│     │── asset creation
+│     │── conceptualization
+│     │── debugging
+│     │── design
+│     │── documentation
+│     │── game-jams
+│     │── package-and-launch
+│     │── programming
+│     └── prototyping
+│── documentation
+│     └── ...
+│── resources
+│     │── images
+│     │── links
+│     └── miscellaneous
 └── README.md
 ```
+
+## How to Use
+
+...
