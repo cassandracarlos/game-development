@@ -1,3 +1,15 @@
+extends RigidBody2D
+
+func _ready():
+	$AnimatedSprite2D.play()
+	var mob_types = Array($AnimatedSprite2D.sprite_frames.get_animation_names())
+	$AnimatedSprite2D.animation = mob_types.pick_random()
+
+
+func _on_VisibilityNotifier2D_screen_exited():
+	queue_free()
+
+/*
 XCOM 2
 Monster Hunter
 
@@ -7,10 +19,9 @@ Of course this is a nitpick, because the game is hella fun to play."
 
     XCOM 2 had that for me. I’ll stop after this mission. I’ll stop before the next mission. I’ll stop after this mission. I’ll stop before the next mission. All night."
 
-/**/
-
 "I have two that get me every time.
 
     1. Games like XCOM where you send out a squad, do a mission, come back, heal, build, train, repeat. It's just very satisfying for me.
 
     2. Monster Hunter. Go out, hunt a monster. Use its parts to make better gear so you can go hunt a bigger monster so you can get better gear so you can hunt a bigger monster. Continue forever."
+*/
